@@ -1,0 +1,258 @@
+[
+  {
+    "name": "Apple",
+    "description": "Crunchy and sweet fruit, rich in fiber and vitamin C."
+  },
+  {
+    "name": "Banana",
+    "description": "Elongated, creamy fruit, a good source of potassium."
+  },
+  {
+    "name": "Orange",
+    "description": "Tangy citrus fruit, packed with vitamin C."
+  },
+  {
+    "name": "Mango",
+    "description": "Sweet tropical fruit, available in various textures."
+  },
+  {
+    "name": "Grape",
+    "description": "Small, round fruit available in different colors, used fresh or dried."
+  },
+  {
+    "name": "Pineapple",
+    "description": "Tropical fruit with spiky skin and sweet, juicy flesh."
+  },
+  {
+    "name": "Strawberry",
+    "description": "Bright red berries with a sweet and slightly tart flavor."
+  },
+  {
+    "name": "Watermelon",
+    "description": "Large, juicy fruit with a refreshing taste, mainly composed of water."
+  },
+  {
+    "name": "Kiwi",
+    "description": "Small, tangy-sweet fruit with fuzzy brown skin and green flesh."
+  },
+  {
+    "name": "Peach",
+    "description": "Soft, fuzzy fruit with a sweet and juicy flesh, rich in vitamins A and C."
+  },
+  {
+    "name": "Cherry",
+    "description": "Small, round fruit with a sweet and slightly tart flavor."
+  },
+  {
+    "name": "Pear",
+    "description": "Juicy fruit with a smooth texture and sweet taste."
+  },
+  {
+    "name": "Plum",
+    "description": "Small, smooth-skinned fruit with sweet flesh, available in various colors."
+  },
+  {
+    "name": "Apricot",
+    "description": "Small, round fruit with a velvety skin and sweet flesh."
+  },
+  {
+    "name": "Blueberry",
+    "description": "Small, round berries with a sweet and slightly acidic flavor."
+  },
+  {
+    "name": "Raspberry",
+    "description": "Small, red berries with a sweet and slightly tart flavor."
+  },
+  {
+    "name": "Blackberry",
+    "description": "Small, dark berries with a sweet and slightly tart flavor."
+  },
+  {
+    "name": "Cantaloupe",
+    "description": "Sweet, juicy melon with orange flesh and a netted rind."
+  },
+  {
+    "name": "Honeydew",
+    "description": "Sweet, juicy melon with pale green flesh and a smooth rind."
+  },
+  {
+    "name": "Dragonfruit",
+    "description": "Exotic fruit with vibrant pink or white flesh speckled with black seeds."
+  },
+  {
+    "name": "Passion Fruit",
+    "description": "Small, round fruit with a wrinkled purple or yellow rind and tangy-sweet pulp."
+  },
+  {
+    "name": "Grapefruit",
+    "description": "Large, tangy citrus fruit with pink, red, or yellow flesh."
+  },
+  {
+    "name": "Lemon",
+    "description": "Tart citrus fruit used for its juice and zest in cooking and beverages."
+  },
+  {
+    "name": "Lime",
+    "description": "Small, round citrus fruit with a tangy flavor, used in cooking and beverages."
+  },
+  {
+    "name": "Coconut",
+    "description": "Large seed fruit with a hard shell and sweet, creamy flesh."
+  },
+  {
+    "name": "Pomegranate",
+    "description": "Round fruit with a tough outer rind and juicy, edible seeds inside."
+  },
+  {
+    "name": "Fig",
+    "description": "Sweet fruit with a soft, chewy texture and small, crunchy seeds."
+  },
+  {
+    "name": "Guava",
+    "description": "Tropical fruit with a green or yellow skin and pink or white flesh."
+  },
+  {
+    "name": "Lychee",
+    "description": "Small, round fruit with a rough, pinkish-red skin and translucent, juicy flesh."
+  },
+  {
+    "name": "Mangosteen",
+    "description": "Tropical fruit with a thick, purple rind and sweet, tangy flesh."
+  },
+  {
+    "name": "Papaya",
+    "description": "Tropical fruit with orange flesh and black seeds, known for its sweet taste."
+  },
+  {
+    "name": "Kiwi Berry",
+    "description": "Small, smooth-skinned fruit with green flesh and a sweet-tart flavor."
+  },
+  {
+    "name": "Cranberry",
+    "description": "Small, tart berries often used in sauces, juices, and baked goods."
+  },
+  {
+    "name": "Tangerine",
+    "description": "Small citrus fruit similar to an orange but with a sweeter flavor and thinner skin."
+  },
+  {
+    "name": "Kumquat",
+    "description": "Small, oval citrus fruit eaten whole, including the peel, with a sweet-tart flavor."
+  },
+  {
+    "name": "Persimmon",
+    "description": "Orange fruit with a sweet, honey-like flavor and soft, pulpy texture."
+  },
+  {
+    "name": "Star Fruit",
+    "description": "Exotic fruit with a distinctive star-shaped cross-section and sweet-tart flavor."
+  },
+  {
+    "name": "Acai Berry",
+    "description": "Small, dark purple berries with a rich, earthy flavor, often used in smoothie bowls."
+  },
+  {
+    "name": "Rambutan",
+    "description": "Tropical fruit with a hairy red or yellow skin and sweet, juicy flesh."
+  },
+  {
+    "name": "Mulberry",
+    "description": "Small, sweet berries that grow on trees, available in various colors."
+  },
+  {
+    "name": "Acerola Cherry",
+    "description": "Small, red fruit known for its extremely high vitamin C content."
+  },
+  {
+    "name": "Ackee",
+    "description": "Tropical fruit with a buttery texture and mild flavor, often used in Caribbean cuisine."
+  },
+  {
+    "name": "Bilberry",
+    "description": "Small, dark blue berries with a similar appearance and taste to blueberries."
+  },
+  {
+    "name": "Feijoa",
+    "description": "Green fruit with a fragrant aroma and sweet, tangy flavor, native to South America."
+  },
+  {
+    "name": "Jabuticaba",
+    "description": "Dark purple fruit that grows directly on the trunk of the jabuticaba tree, with a sweet, grape-like flavor."
+  },
+  {
+    "name": "Langsat",
+    "description": "Tropical fruit with a thin, yellow skin and translucent, juicy flesh, similar to longan or lychee."
+  },
+  {
+    "name": "Loquat",
+    "description": "Small, orange fruit with a sweet and slightly tart flavor, often eaten fresh or used in jams and preserves."
+  },
+  {
+    "name": "Nectarine",
+    "description": "Smooth-skinned fruit similar to a peach but with a firmer texture and no fuzz."
+  },
+  {
+    "name": "Pawpaw",
+    "description": "Large, greenish-yellow fruit with a custard-like texture and sweet flavor, native to North America."
+  },
+  {
+    "name": "Quince",
+    "description": "Hard, yellow fruit with a tart flavor, often cooked before eating or used in preserves and jams."
+  },
+  {
+    "name": "Soursop",
+    "description": "Large, spiky fruit with soft, white flesh and a sweet, tangy flavor, known for its medicinal properties."
+  },
+  {
+    "name": "Tamarillo",
+    "description": "Egg-shaped fruit with a glossy skin and tangy flavor, available in red or yellow varieties."
+  },
+  {
+    "name": "Ugli Fruit",
+    "description": "Citrus fruit with a rough, wrinkled skin and sweet-tart flavor, a cross between a grapefruit, orange, and tangerine."
+  },
+  {
+    "name": "Yuzu",
+    "description": "Citrus fruit with a fragrant aroma and tart flavor, commonly used in Japanese cuisine."
+  },
+  {
+    "name": "Pitaya",
+    "description": "Exotic fruit with a vibrant pink or yellow skin and white or pink flesh, also known as dragon fruit."
+  },
+  {
+    "name": "Pepino",
+    "description": "Pear-shaped fruit with yellow skin and sweet, juicy flesh, native to South America."
+  },
+  {
+    "name": "Kiwano",
+    "description": "Oval-shaped fruit with spiky orange skin and green, jelly-like flesh, also known as horned melon."
+  },
+  {
+    "name": "Miracle Fruit",
+    "description": "Small, red fruit with a sweet, berry-like flavor that causes sour foods eaten afterward to taste sweet."
+  },
+  {
+    "name": "Atemoya",
+    "description": "Hybrid fruit between cherimoya and sugar apple, with creamy, sweet flesh."
+  },
+  {
+    "name": "Feijoa",
+    "description": "Tropical fruit with a fragrant aroma and sweet, tangy flavor, native to South America."
+  },
+  {
+    "name": "Physalis",
+    "description": "Small, orange fruit enclosed in a papery husk, with a sweet-tart flavor and tropical aroma."
+  },
+  {
+    "name": "Tamarind",
+    "description": "Pod-like fruit with a tangy-sweet flavor, commonly used in Asian, African, and Latin American cuisines."
+  },
+  {
+    "name": "Yangmei",
+    "description": "Small, red fruit with a sweet and tart flavor, native to China and commonly used in Chinese medicine."
+  },
+  {
+    "name": "Pepino Dulce",
+    "description": "Elongated fruit with yellow or purple-striped skin and sweet, juicy flesh, also known as sweet cucumber."
+  }
+]
