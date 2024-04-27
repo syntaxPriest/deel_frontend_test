@@ -3,7 +3,7 @@
 
 # Question 1
 
-A component in react re-renders based on state and props change while a pure component does a little comparison as to why a change in the state or props should re-render. The major difference between them is the `shouldComponentUpdate()` method which is present in the pure component and not the regular component. On the background, the pure component through the `shouldComponentupdate()` method makes a logic check if the previous state is same as the new state and if true, the component doesn't re-render but if false it re-renders. So the major difference between them is the logic check. \
+A component in react re-renders based on state and props change while a pure component does a little comparison as to why a change in the state or props should re-render. The major difference between them is the `shouldComponentUpdate()` method which is present in the pure component and not the regular component. On the background, the pure component through the `shouldComponentupdate()` method makes a logic check if the previous state is same as the new state and if true, the component doesn't re-render but if false it re-renders. So the major difference between them is the logic check. 
 
 One of the ways a pure component can crash the app is when it fails the default logic under the comparison made for states and props. An example is an array comparison. We know that array comparison happens based on the values and also the reference in the memory. This might make the app re-rendering malfunction because the true comparison is not being made.
 
@@ -13,7 +13,7 @@ I have mostly used context for theming but don't use `shouldComponentUpdate()` m
 
 # Question 3
 
-Based on my current knowledge, I only know of two for now on how we can pass informations from child components to parent components. \
+Based on my current knowledge, I only know of two for now on how we can pass informations from child components to parent components. 
 
 1. We can use a global state management like Redux, Context API and many more to store states in the store from any component and can be accesible by all components under the state management Provider which means if a child component sets or updates a state or an information, the parent component also has access to that information because it is a global state.
 
@@ -22,7 +22,7 @@ Based on my current knowledge, I only know of two for now on how we can pass inf
 
 # Question 4
 
-Based on my experience, components re-renders unnecessarily when the dependency array are not set in a useEffect or the wrong ones are set. So one of the ways of preventing re-rendering is making sure that dependency array is present on useEffect calls which can be an empty array as second argument or making sure the variables that needs to be in that dependency array are correct so as not to result in a memory leak in the application. One of the implications is browser getting hanged or crashing. Another alternative is using the useMemo because it remembers the current values of the variables in the dependency array and only calls when they change.  \
+Based on my experience, components re-renders unnecessarily when the dependency array are not set in a useEffect or the wrong ones are set. So one of the ways of preventing re-rendering is making sure that dependency array is present on useEffect calls which can be an empty array as second argument or making sure the variables that needs to be in that dependency array are correct so as not to result in a memory leak in the application. One of the implications is browser getting hanged or crashing. Another alternative is using the useMemo because it remembers the current values of the variables in the dependency array and only calls when they change.  
 
 Another way to prevent re-rendering is using the useRef() instead of useState for variables that would most likely cause re-renders. useRef() don't usually triggers re-rendering unlike useState when states are being updated.
 
@@ -53,15 +53,15 @@ An Async...await error handling is done by wrapping the async code inside a try/
 
 # Question 8
 
-setState() method takes two argument even though the second one is optional. The first argument contains an object of value to the state field name. The second argument is a callback meant to run when the state has been set. \
+setState() method takes two argument even though the second one is optional. The first argument contains an object of value to the state field name. The second argument is a callback meant to run when the state has been set. 
 
 For example,
 
 `this.setState({ name: "Daniel Adewale" }, () => {
     console.log(this.state.name  + " loves Deel");
-});` \
+});` 
 
-And it is an asynchronous call because it joins a queue of calls and it runs after the current process has ended, and based of my knowledge, it is preferred to a synchronous call because of general performance of the application. Earlier in my career, I run into memory leaks and could be frustrating but later discovered sometimes it's because I am trying to bypass an asynchronous setState call unknowingly. \
+And it is an asynchronous call because it joins a queue of calls and it runs after the current process has ended, and based of my knowledge, it is preferred to a synchronous call because of general performance of the application. Earlier in my career, I run into memory leaks and could be frustrating but later discovered sometimes it's because I am trying to bypass an asynchronous setState call unknowingly. 
 
 
 # Question 9
@@ -72,20 +72,20 @@ I found this task quite interesting earlier in my career but can't relate most o
 
 # Question 10
 
-Styles can be added to a component through many ways which are: \
+Styles can be added to a component through many ways which are: 
 
-Inline styling: Inline styles can be added through the style attribute which takes a style object with css properties cascaded in camelCase as the field and the value in interger, float or string depending on the css property. \
+Inline styling: Inline styles can be added through the style attribute which takes a style object with css properties cascaded in camelCase as the field and the value in interger, float or string depending on the css property. 
 
-Normal/External css: This method works by creating an external css file, creating the styles with selectors whether class, id, tag or any other selector and which this external css file can be imported to the react component and freely used by adding the class to the component through the className attribute. \
+Normal/External css: This method works by creating an external css file, creating the styles with selectors whether class, id, tag or any other selector and which this external css file can be imported to the react component and freely used by adding the class to the component through the className attribute. 
 
-Normal CSS Styles can be also be added through utility classes. There are lot of providers like Tailwind, Bootstrap, Chakra UI that provides these. \
+Normal CSS Styles can be also be added through utility classes. There are lot of providers like Tailwind, Bootstrap, Chakra UI that provides these. 
 
-Styled component: Styled components is a styling library supported by react that allows creating of components and their styles simultaneously inside a JS or TS file. The styles are assigned to a javascript variable and serves as the component itself when it's been used. The is my most preferred styling library as it makes it easy to re-use component styles easily and pass styles through props for identical components. \
+Styled component: Styled components is a styling library supported by react that allows creating of components and their styles simultaneously inside a JS or TS file. The styles are assigned to a javascript variable and serves as the component itself when it's been used. The is my most preferred styling library as it makes it easy to re-use component styles easily and pass styles through props for identical components. 
 
 
 # Question 11
 
-HTML strings coming from the server can be rendered using dangerouslySetInnerHTML which is majorly an attribute for element with a closing tag that can house a child element such as div, p, h1, section and more.\
+HTML strings coming from the server can be rendered using dangerouslySetInnerHTML which is majorly an attribute for element with a closing tag that can house a child element such as div, p, h1, section and more.
 
 Example 
 
@@ -94,7 +94,4 @@ where htmlString is a variable storing the html string from the server.
 
 # JSX
 
-`<div 
-    dangerouslysetInnerHTML={{__html: `${htmlString}`}}
->
-</div>`
+`<div dangerouslysetInnerHTML={{__html: `${htmlString}`}}><div>`
