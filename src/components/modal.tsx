@@ -22,7 +22,7 @@ const Modal = ({
                                 e.stopPropagation();
                             }}
                         >
-                            <div className="flex between">
+                            <div className="flex between vertical-align">
                                 <h3>{headerText}</h3>
                                 <XIcon 
                                     width={"20px"} 

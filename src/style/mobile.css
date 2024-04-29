@@ -1,0 +1,12 @@
+@media (max-width: 600px){
+    input {
+        padding: 14px 2% 14px 10%;
+        width: 88%;
+    }
+    .modal-child {
+        height: 95vh;
+    }
+    .scroll-wrapper {
+        max-height: 90vh;
+      }
+}

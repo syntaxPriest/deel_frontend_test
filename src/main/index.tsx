@@ -51,14 +51,26 @@ export default function MainPage (){
                 state: 'filteredFruits',
                 value: mockData
             })
+        }else {
+            handleStateChange({
+                state: 'filteredFruits',
+                value: pageState?.mainData
+            })
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pageState?.searchString])
-
-    console.log(pageState)
 
     return(
         <>
-            <div className="main-wrapper">
+            <div 
+                className="main-wrapper"
+                onClick={() => {
+                    handleStateChange({
+                        state: "showSuggestions",
+                        value: false
+                    })
+                }}
+            >
                 <div className="card-holder flex centered-flex">
                     <Componentcard 
                         data={pageState?.filteredFruits}

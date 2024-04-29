@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './style/main.css'
 import './style/modal.css'
+import './style/mobile.css'
 import reportWebVitals from './reportWebVitals';
 import MainPage from './main';
 

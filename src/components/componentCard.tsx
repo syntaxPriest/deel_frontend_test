@@ -33,15 +33,17 @@ export default function Componentcard({
                 <p className="indicator-text">
                     Looking for the perfect fruit? Search no further! Dive into our extensive collection now to find exactly what you need. Happy hunting!
                 </p>
-                {
-                    (selectedItem && selectedItem?.index > -1) &&
-                        <div className="search-info">
-                            <p>Selected: </p>
-                            <div className="basic-text-card">
-                                {selectedItem?.name}
+                <div>
+                    {
+                        (selectedItem && selectedItem?.index > -1) &&
+                            <div className="search-info">
+                                <p>Selected: </p>
+                                <div className="basic-text-card">
+                                    {selectedItem?.name}
+                                </div>
                             </div>
-                        </div>
-                }
+                    }
+                </div>
                 <div 
                     className="input-holder"
                     onClick={(e) => {
@@ -53,7 +55,7 @@ export default function Componentcard({
                     </i>
                     <input 
                         type="text"
-                        autoFocus
+                        // autoFocus
                         value={searchString}
                         onChange={(e) => {
                             handleStateChange({
@@ -64,6 +66,26 @@ export default function Componentcard({
                                 state: "showSuggestions",
                                 value: true
                             })
+                        }}
+                        // When user clicks enter, it picks the first element on the suggestion list as selected item
+                        onKeyDown={(e) => {
+                            if (e.key === 'Enter' && data && data.length > 0){
+                                handleStateChange({
+                                    state: "searchString",
+                                    value: data[0]?.name
+                                })
+                                handleStateChange({
+                                    state: "selectedItem",
+                                    value: {
+                                        index: 0,
+                                        name: data[0].name
+                                    }
+                                })
+                                handleStateChange({
+                                    state: "showSuggestions",
+                                    value: false
+                                })
+                            }
                         }}
                         onFocus={handleFocus}
                     />

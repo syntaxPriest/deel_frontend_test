@@ -26,9 +26,9 @@ const SuggestionsComp = ({
                             data && data.length > 0 ?
                                 data.map((item, index) => (
                                     <div 
-                                        className={`suggest-wrapper flex between ${selectedItem?.name === item?.name ? "bg-grey" : ""}`}
+                                        className={`suggest-wrapper flex between ${(selectedItem?.name === item?.name || (searchQuery && data && data?.length > 0 && index === 0))? "bg-grey" : ""}`}
                                         key={index}
-                                        style={index === data.length - 1 ? {
+                                        style={(index === data.length - 1)  ? {
                                             border: 'none'
                                         } : {}}
                                         onClick={() => {
@@ -39,6 +39,14 @@ const SuggestionsComp = ({
                                                         index,
                                                         name: item.name
                                                     }
+                                                })
+                                                handleStateChange({
+                                                    state: "searchString",
+                                                    value: item.name
+                                                })
+                                                handleStateChange({
+                                                    state: "showSuggestions",
+                                                    value: false
                                                 })
                                             }
                                         }}
